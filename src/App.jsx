@@ -1,42 +1,19 @@
-import './App.css';
-import Button from './ui/Button';
-import Contents from './template/Contents';
+import React from 'react'
 
-import { useEffect, useState } from 'react';
+import { Router, Route, Link, Routes } from 'react-router-dom'
+
+import ButtonClickChangeColor from './pages/ButtonClickChangeColor'
+import Home from './pages/Home'
 
 function App() {
-  const [message, setMessage] = useState('select color!!')
-  const [style, setStyle] = useState()
-  // const colors = {red:'red', blue:'blue', green:'green'}
-  const [colors, setColors] = useState(['red', 'blue', 'green'])
-
-  function onClickEvent(e) {
-    setStyle({color:e.target.innerText})
-    setMessage('changeColor')
-  }
-  
   return (
-    <div className="App">
-      <header></header>
-        <div className="App-header">
-          <div className="App-button-flex">
-            {colors.map( color => {
-              return(
-                <Button
-                  name={color}
-                  onClickEvent={onClickEvent}
-                />
-              )
-            })}
-          </div>
-            <Contents
-              message={message}
-              style={style}
-            />
-        </div>
-        <footer></footer>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/buttonClickChangeColor" element={<ButtonClickChangeColor/>}/>
+      </Routes>
     </div>
-  );
+  )
 }
 
 export default App;
