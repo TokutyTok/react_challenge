@@ -1,5 +1,6 @@
 import '../App.css';
 import Contents from '../template/Contents';
+import Input from '../ui/Input';
 import { Link } from "react-router-dom";
 
 import { useState } from 'react';
@@ -25,7 +26,10 @@ export default function ValueDisplayEntered() {
                 </nav>
                 </header>
                 <div className="App-header">
-                    <input value={message} onChange={valueDisplay}/>
+                    <Input 
+                        value={message}
+                        onChangeEvent={valueDisplay}
+                    />
                     <Contents
                         message={message}
                     />
