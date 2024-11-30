@@ -9,7 +9,10 @@ export default function Home() {
         <body>
             <nav className="App-liststyle-none">
                 <li>
-                    <Link to="/buttonClickChangeColor">ButtonClickChangeColor</Link>
+                    <Link to="/ButtonClickChangeColor">ButtonClickChangeColor</Link>
+                </li>
+                <li>
+                    <Link to="/ValueDisplayEntered">ValueDisplayEntered</Link>
                 </li>
             </nav>
         </body>

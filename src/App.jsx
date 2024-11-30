@@ -1,8 +1,9 @@
 import React from 'react'
 
-import { Router, Route, Link, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 
 import ButtonClickChangeColor from './pages/ButtonClickChangeColor'
+import ValueDisplayEntered from './pages/ValueDisplayEntered'
 import Home from './pages/Home'
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/buttonClickChangeColor" element={<ButtonClickChangeColor/>}/>
+        <Route path="/ButtonClickChangeColor" element={<ButtonClickChangeColor/>}/>
+        <Route path="/ValueDisplayEntered" element={<ValueDisplayEntered/>}/>
       </Routes>
     </div>
   )
