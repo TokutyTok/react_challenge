@@ -17,6 +17,7 @@ export default function ButtonClickChangeColor() {
   
   return (
     <>
+      <title>ButtonClickChangeColor</title>
       <div className="App">
         <header>
           <nav className="App-liststyle-none">

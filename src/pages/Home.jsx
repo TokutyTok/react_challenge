@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
     return(
       <>
+        <title>Home</title>
         <div>
             <nav className="App-liststyle-none">
                 <li>

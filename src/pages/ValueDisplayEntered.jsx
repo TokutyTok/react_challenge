@@ -13,7 +13,8 @@ export default function ValueDisplayEntered() {
     }
 
     return (
-        <>
+        <>  
+            <title>ValueDisplayEntered</title>
             <div className="App">
                 <header>
                 <nav className="App-liststyle-none">

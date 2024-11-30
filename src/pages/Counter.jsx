@@ -14,6 +14,7 @@ export default function ValueDisplayEntered() {
 
     return (
         <>
+            <title>Counter</title>
             <div className="App">
                 <header>
                 <nav className="App-liststyle-none">
