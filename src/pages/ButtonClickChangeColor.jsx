@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 import { useState } from 'react';
 
-function App() {
+export default function ButtonClickChangeColor() {
   const [message, setMessage] = useState('select color!!')
   const [style, setStyle] = useState()
   const [colors, setColors] = useState(['red', 'blue', 'green'])
@@ -50,5 +50,3 @@ function App() {
     
   );
 }
-
-export default App;
