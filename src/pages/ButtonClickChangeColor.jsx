@@ -17,10 +17,7 @@ export default function ButtonClickChangeColor() {
   
   return (
     <>
-      <head>
-        <title>buttonClickChangeColor</title>
-      </head>
-      <body className="App">
+      <div className="App">
         <header>
           <nav className="App-liststyle-none">
               <li>
@@ -45,7 +42,7 @@ export default function ButtonClickChangeColor() {
             />
         </div>
         <footer></footer>
-      </body>
+      </div>
     </>
     
   );

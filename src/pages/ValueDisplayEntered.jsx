@@ -14,10 +14,7 @@ export default function ValueDisplayEntered() {
 
     return (
         <>
-            <head>
-                <title>ValueDisplayEntered</title>
-            </head>
-            <body className="App">
+            <div className="App">
                 <header>
                 <nav className="App-liststyle-none">
                     <li>
@@ -35,7 +32,7 @@ export default function ValueDisplayEntered() {
                     />
                 </div>
                 <footer></footer>
-            </body>
+            </div>
         </>
     );
 }

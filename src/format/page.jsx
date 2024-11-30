@@ -8,10 +8,7 @@ export default function ValueDisplayEntered() {
     const [message, setMessage] = useState('message')
     return (
         <>
-            <head>
-                <title>-</title>
-            </head>
-            <body className="App">
+            <div className="App">
                 <header>
                 <nav className="App-liststyle-none">
                     <li>
@@ -25,7 +22,7 @@ export default function ValueDisplayEntered() {
                     />
                 </div>
                 <footer></footer>
-            </body>
+            </div>
         </>
     );
 }
