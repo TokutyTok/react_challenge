@@ -14,6 +14,9 @@ export default function Home() {
                 <li>
                     <Link to="/ValueDisplayEntered">入力フィールドからの値を表示する</Link>
                 </li>
+                <li>
+                    <Link to="/Counter">カウントアップするボタン</Link>
+                </li>
             </nav>
         </body>
       </>
