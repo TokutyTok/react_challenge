@@ -9,10 +9,10 @@ export default function Home() {
         <body>
             <nav className="App-liststyle-none">
                 <li>
-                    <Link to="/ButtonClickChangeColor">ButtonClickChangeColor</Link>
+                    <Link to="/ButtonClickChangeColor">ボタンを押下したら文字の色が切り替わる</Link>
                 </li>
                 <li>
-                    <Link to="/ValueDisplayEntered">ValueDisplayEntered</Link>
+                    <Link to="/ValueDisplayEntered">入力フィールドからの値を表示する</Link>
                 </li>
             </nav>
         </body>
