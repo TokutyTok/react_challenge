@@ -15,6 +15,9 @@ export default function Home() {
                 <li>
                     <Link to="/Counter">カウントアップするボタン</Link>
                 </li>
+                <li>
+                    <Link to="/ShowList">リストを受け取って表示する</Link>
+                </li>
             </nav>
         </div>
       </>
