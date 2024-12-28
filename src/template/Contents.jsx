@@ -9,7 +9,7 @@ export default function Contents(props) {
             </div>
             <div>
                 <ul>
-                    {Object.entries(list).map(([key, value]) => (
+                    {list && Object.entries(list).map(([key, value]) => (
                         <li key={key} style={{color: value}}>{key}</li>
                     ))}
                 </ul>
