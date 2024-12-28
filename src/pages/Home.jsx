@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { linkList } from "../Transition";
 
 export default function Home() {
     return(
@@ -6,18 +7,13 @@ export default function Home() {
         <title>Home</title>
         <div>
             <nav className="App-liststyle-none">
-                <li>
-                    <Link to="/ButtonClickChangeColor">ボタンを押下したら文字の色が切り替わる</Link>
-                </li>
-                <li>
-                    <Link to="/ValueDisplayEntered">入力フィールドからの値を表示する</Link>
-                </li>
-                <li>
-                    <Link to="/Counter">カウントアップするボタン</Link>
-                </li>
-                <li>
-                    <Link to="/ShowList">リストを受け取って表示する</Link>
-                </li>
+                <ul>
+                    {Object.entries(linkList).map(([key, value]) => (
+                        <li key={key}>
+                            <Link to={key}>{value}</Link>
+                        </li>
+                    ))}
+                </ul>
             </nav>
         </div>
       </>
