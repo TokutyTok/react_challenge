@@ -31,6 +31,7 @@ export default function ButtonClickChangeColor() {
             {colors.map( color => {
               return(
                 <Button
+                  key={color}
                   name={color}
                   onClickEvent={onClickEvent}
                 />
