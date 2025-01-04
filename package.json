@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "prettier": "^3.4.2",
     "react-tabs": "^6.1.0"
   }
 }
