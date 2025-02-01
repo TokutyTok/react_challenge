@@ -6,6 +6,7 @@ import ShowList from '../src/pages/ShowList'
 import GoodButton from '../src/pages/GoodButton'
 import ChangeTabs from '../src/pages/ChangeTabs'
 import Api from '../src/pages/Api'
+import SearchBar from './pages/SearchBar'
 
 const linkList = {
 	'/ButtonClickChangeColor': 'ボタンを押下したら文字の色が切り替わる',
@@ -15,6 +16,7 @@ const linkList = {
 	'/GoodButton': 'Goodボタン',
 	'/ChangeTabs': 'タブを切り替える',
 	'/Api': 'APIからデータ取得',
+	'/SearchBar': '検索バー',
 }
 
 const routeList = {
@@ -26,6 +28,7 @@ const routeList = {
 	'/GoodButton': <GoodButton />,
 	'/ChangeTabs': <ChangeTabs />,
 	'/Api': <Api />,
+	'/SearchBar': <SearchBar />,
 }
 
 export { linkList, routeList }
