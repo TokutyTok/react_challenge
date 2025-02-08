@@ -8,6 +8,7 @@ import ChangeTabs from '../src/pages/ChangeTabs'
 import Api from '../src/pages/Api'
 import SearchBar from './pages/SearchBar'
 import Context from './pages/Context'
+import CustomHook from './pages/CustomHook'
 
 const linkList = {
 	'/ButtonClickChangeColor': 'ボタンを押下したら文字の色が切り替わる',
@@ -19,6 +20,7 @@ const linkList = {
 	'/Api': 'APIからデータ取得',
 	'/SearchBar': '検索バー',
 	'/Context': 'コンテキスト',
+	'/CustomHook': 'カスタムフック',
 }
 
 const routeList = {
@@ -32,6 +34,7 @@ const routeList = {
 	'/Api': <Api />,
 	'/SearchBar': <SearchBar />,
 	'/Context': <Context />,
+	'/CustomHook': <CustomHook />,
 }
 
 export { linkList, routeList }

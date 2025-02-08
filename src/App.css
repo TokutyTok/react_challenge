@@ -51,3 +51,11 @@
 	color: white;
 	list-style: none;
 }
+
+.Custom-hook-flex {
+	display: flex;
+}
+
+.Custom-hook-flex button {
+	margin: 5px 5px 0px 5px;
+}
