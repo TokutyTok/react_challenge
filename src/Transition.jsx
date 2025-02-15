@@ -9,6 +9,7 @@ import Api from '../src/pages/Api'
 import SearchBar from './pages/SearchBar'
 import Context from './pages/Context'
 import CustomHook from './pages/CustomHook'
+import ModalWindow from './pages/ModalWindow'
 
 const linkList = {
 	'/ButtonClickChangeColor': 'ボタンを押下したら文字の色が切り替わる',
@@ -21,6 +22,7 @@ const linkList = {
 	'/SearchBar': '検索バー',
 	'/Context': 'コンテキスト',
 	'/CustomHook': 'カスタムフック',
+	'/ModalWindow': 'モーダルウィンドウ',
 }
 
 const routeList = {
@@ -35,6 +37,7 @@ const routeList = {
 	'/SearchBar': <SearchBar />,
 	'/Context': <Context />,
 	'/CustomHook': <CustomHook />,
+	'/ModalWindow': <ModalWindow />,
 }
 
 export { linkList, routeList }
