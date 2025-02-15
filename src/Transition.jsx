@@ -10,6 +10,7 @@ import SearchBar from './pages/SearchBar'
 import Context from './pages/Context'
 import CustomHook from './pages/CustomHook'
 import ModalWindow from './pages/ModalWindow'
+import ButtonAnimation from './pages/ButtonAnimation'
 
 const linkList = {
 	'/ButtonClickChangeColor': 'ボタンを押下したら文字の色が切り替わる',
@@ -23,6 +24,7 @@ const linkList = {
 	'/Context': 'コンテキスト',
 	'/CustomHook': 'カスタムフック',
 	'/ModalWindow': 'モーダルウィンドウ',
+	'/ButtonAnimation': 'ボタンアニメーション',
 }
 
 const routeList = {
@@ -38,6 +40,7 @@ const routeList = {
 	'/Context': <Context />,
 	'/CustomHook': <CustomHook />,
 	'/ModalWindow': <ModalWindow />,
+	'/ButtonAnimation': <ButtonAnimation />,
 }
 
 export { linkList, routeList }
